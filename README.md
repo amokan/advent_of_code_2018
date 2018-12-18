@@ -3,6 +3,7 @@
 Elixir-based solutions for [Advent Of Code 2018](https://adventofcode.com).
 
 I'm not racing to catch up... just doing these when I have time.
+
 ----
 
 ## Dependencies
@@ -26,6 +27,7 @@ I'm not racing to catch up... just doing these when I have time.
   Launch the project in iex using `iex -S mix`
 
   `AdventOfCode2018.run_all` to run all problems that I have completed.
+  
 ----
 
 ## Unit Tests (If any exist)
