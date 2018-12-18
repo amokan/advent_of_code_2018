@@ -6,9 +6,9 @@ defmodule AdventOfCode2018.Day2.Solution do
   @input_file "priv/day2_input.txt"
 
   @doc """
-  Return the solution for the input file.
+  Return the part one solution for the input file.
   """
-  def run do
+  def run_p1 do
     File.stream!(@input_file)
     |> Stream.map(&(String.replace(&1, "\n", "")))
     |> Stream.map(&(String.split(&1, "", trim: true)))

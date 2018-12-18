@@ -9,9 +9,9 @@ defmodule AdventOfCode2018 do
   def run_all do
     IO.puts "--- Advent of Code 2018 ---\n"
 
-    day1() |> IO.inspect(label: "Day 1 Result")
+    day1p1() |> IO.inspect(label: "Day 1 Result (Part 1)")
 
-    day2() |> IO.inspect(label: "Day 2 Result")
+    day2p1() |> IO.inspect(label: "Day 2 Result (Part 1)")
 
     IO.puts "\n\n"
   end
@@ -20,12 +20,12 @@ defmodule AdventOfCode2018 do
   @doc """
   Runs the day 1 solution
   """
-  def day1, do: AdventOfCode2018.Day1.Solution.run()
+  def day1p1, do: AdventOfCode2018.Day1.Solution.run_p1()
 
 
   @doc """
   Runs the day 2 solution
   """
-  def day2, do: AdventOfCode2018.Day2.Solution.run()
+  def day2p1, do: AdventOfCode2018.Day2.Solution.run_p1()
 
 end
