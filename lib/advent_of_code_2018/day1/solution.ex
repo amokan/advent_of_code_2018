@@ -1,11 +1,14 @@
 defmodule AdventOfCode2018.Day1.Solution do
   @moduledoc """
+  Solution for Day 1 AoC problem
   """
 
   @input_file "priv/day1_input.txt"
 
   @doc """
-  Return the solution for the input file
+  Return the solution for the input file.
+
+  Didn't need to use `File.stream!` and I know there are more elegant ways to handle the `Enum.sum` when streaming
   """
   def run do
     File.stream!(@input_file)
